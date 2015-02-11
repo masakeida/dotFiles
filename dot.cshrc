@@ -28,7 +28,7 @@ alias chao	logout
 
 setenv	EDITOR	vi
 setenv	PAGER	less
-setenv	PYTHONPATH	~/.python/2.7.8/site-packages
+setenv	PYTHONPATH	~/.python/2.7.x/site-packages
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up
