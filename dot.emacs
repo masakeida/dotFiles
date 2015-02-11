@@ -54,3 +54,9 @@
 (require 'cl)
 (autoload 'php-mode "php-mode" "Mode for editing PHP source files")
 (add-to-list 'auto-mode-alist '("\\.\\(inc\\|php[s34]?\\)" . php-mode))
+(add-hook 'php-mode-hook
+	  '(lambda()
+	     (setq tab-width 4)
+	     (setq indent-tabs-mode t)
+	     (setq c-basic-offset 4)
+	     ))
