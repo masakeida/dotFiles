@@ -21,14 +21,14 @@ alias chao	logout
 
 # These are normally set through /etc/login.conf.  You may override them here
 # if wanted.
-# set path = (/sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/bin)
-# setenv	BLOCKSIZE	K
+set path = (/sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/bin $HOME/.local/bin)
+setenv	BLOCKSIZE	K
 # A righteous umask
-# umask 22
+umask 22
 
 setenv	EDITOR	vi
 setenv	PAGER	less
-setenv	PYTHONPATH	~/.python/2.7.x/site-packages
+setenv	PYTHONPATH	~/.local/lib/python3.7/site-packages
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up

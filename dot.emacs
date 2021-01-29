@@ -45,10 +45,11 @@
 ;; bunkatsu compile no baai ni oya file wo nyuryoku suru.
 (setq TeX-parse-self t)
 (setq-default TeX-master nil) ;; Set master-file-name manually
-(setq YaTeX-kanji-code 3)
+(setq YaTeX-kanji-code 4)
 ;
 ; ESS
 (load "~/.emacs.d/ess-14.09/lisp/ess-site")
+(ess-toggle-underscore nil)
 ;
 ; php-mode
 (require 'cl)
