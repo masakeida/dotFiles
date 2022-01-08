@@ -28,8 +28,8 @@ umask 22
 
 setenv	EDITOR	vi
 setenv	PAGER	less
-setenv	LESSOPEN	"| source-highlight-esc.sh %s"
 setenv	LESS		'-R'
+setenv	LESSOPEN	"| source-highlight-esc.sh %s"
 setenv	PYTHONPATH	~/.local/lib/python3.8/site-packages
 
 if ($?prompt) then
