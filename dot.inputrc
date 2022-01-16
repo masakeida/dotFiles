@@ -1,0 +1,16 @@
+# for bash
+# tcsh-like key binding
+"\C-d": delete-char-or-list
+"\M-\C-d": possible-completions
+"\e\C-d":  possible-completions
+"\M-p": history-search-backward
+"\M-n": history-search-forward
+"\ep": history-search-backward
+"\en": history-search-forward
+# Disable prompt for long completion list
+set completion-query-items -1
+set page-completions off
+# tcsh-like copy & paste
+"\M-w": copy-region-as-kill
+"\ew": copy-region-as-kill
+"\C-w":  kill-region
