@@ -1,3 +1,6 @@
+# set prompt
+PS1='$ '
+
 # my aliases
 alias bye='logout'
 alias adios='logout'
