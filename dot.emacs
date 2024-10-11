@@ -49,7 +49,7 @@
 ;
 ; ESS
 (load "~/.emacs.d/ESS-24.01.1/lisp/ess-site")
-+(ess-toggle-underscore nil)
+;(ess-toggle-underscore nil)
 ;
 ; php-mode
 (require 'cl)
