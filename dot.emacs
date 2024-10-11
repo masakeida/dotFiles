@@ -48,8 +48,8 @@
 (setq YaTeX-kanji-code 4)
 ;
 ; ESS
-(load "~/.emacs.d/ess-14.09/lisp/ess-site")
-(ess-toggle-underscore nil)
+(load "~/.emacs.d/ESS-24.01.1/lisp/ess-site")
++(ess-toggle-underscore nil)
 ;
 ; php-mode
 (require 'cl)
